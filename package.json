@@ -1,0 +1,25 @@
+{
+  "name": "gyp-converter",
+  "version": "1.0.1",
+  "description": "A node module (with no dependency on python) for parsing a gyp file and converting the file data into a javascript object",
+  "main": "gyp_converter.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jiwonchang/gyp-converter.git"
+  },
+  "keywords": [
+    "gyp"
+  ],
+  "author": "Ji Won Chang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jiwonchang/gyp-converter/issues"
+  },
+  "homepage": "https://github.com/jiwonchang/gyp-converter#readme",
+  "dependencies": {
+    "fs": "0.0.1-security"
+  }
+}
