@@ -1,6 +1,6 @@
 {
   "name": "gyp-converter",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A node module (with no dependency on python) for parsing a gyp file and converting the file data into a javascript object",
   "main": "gyp_converter.js",
   "scripts": {
