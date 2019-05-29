@@ -12,7 +12,7 @@ function GypConverter() {
 }
 
 // splits the file data and then parses each piece of data accordingly
-GypConverter.prototype.parseBindingGyp = function (gypFileDir) {
+GypConverter.prototype.parseGyp = function (gypFileDir) {
     let self = this;
     var bindingGypData = fs.readFileSync(gypFileDir).toString();
     let splitBindingGypData = self.lineSplitter(bindingGypData);
